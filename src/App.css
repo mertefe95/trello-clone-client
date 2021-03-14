@@ -1,38 +1,209 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro';
+}
+
+.right-hero {
+  right: -100px;
+}
+
+.homepage-signup-link {
+  background-color: #0065ff;
+  padding: 7px 8px;
+  font-weight: bold;
+  color: white;
+  border-radius: 3px;
+  letter-spacing: 0.8px;
+}
+
+.homepage-login-link {
+  color: #0065ff;
+  letter-spacing: 0.8px;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  transition: background 1s ease 0s;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.nav-rightside {
+  right: -720px;
+  top: -10px;
+}
+
+section#hero {
+  background: linear-gradient(0deg, #fff, #eae6ff 100%);
+  overflow-x: hidden;
+}
+
+.homepage-hero-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage-signup-form {
+  background-color: #0065ff;
+  padding: 7px 30px;
+  font-weight: bold;
+  color: white;
+  border-radius: 6px;
+  letter-spacing: 0.8px;
+  width: 40%;
   text-align: center;
+  max-width: 175px !important;
+  font-size: 1.1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.homepage-email {
+  width: 70% !important;
+  font-size: 1.2rem !important;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.homepage-hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  line-height: 55px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.homepage-hero-text {
+  letter-spacing: 0.8px;
+  line-height: 30px;
+  font-size: 1.3rem;
+}
+
+.left-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin-right: 0px;
+}
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 150px 0px;
+}
+
+#product {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.product-title {
+  font-size: 2.3rem;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  line-height: 55px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product-p {
+  letter-spacing: 0.3px;
+  line-height: 30px;
+  font-size: 1.3rem;
+  padding: 0 120px;
+}
+
+.product-logos-text {
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  font-size: 1.3rem;
+  padding: 0 120px;
+}
+
+.product-image {
+  width: 100%;
+}
+
+#features {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 300px;
+}
+
+.features-succeed-title,
+.features-board-title,
+.features-cards-title,
+.features-powerups-title,
+.features-butler-title {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  line-height: 55px;
+}
+
+.features-succeed-text,
+.features-board-p,
+.features-cards-p,
+.features-butler-p,
+.features-powerups-p {
+  letter-spacing: 0.6px;
+  line-height: 30px;
+  font-size: 1.3rem;
+}
+
+.features-board-p,
+.features-cards-p,
+.features-butler-p,
+.features-powerups-p {
+  color: #7a869a;
+}
+
+.features-succeed,
+.features-board,
+.features-cards,
+.features-butler,
+.features-powerups {
+  display: flex;
+  margin: 60px 0;
+}
+
+.features-succeed {
+  flex-direction: column;
+  width: 70%;
+  text-align: left;
+}
+
+.features-text-above-title,
+.features-cards-text-above-title,
+.features-butler-text-above-title,
+.features-powerups-text-above-title {
+  letter-spacing: 0.6px;
+  line-height: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.start-doing-btn {
+  padding: 0 40px;
+  width: 160px;
+  letter-spacing: 0.9px;
+  font-size: 1.2rem !important;
+  margin: 30px 0;
 }
