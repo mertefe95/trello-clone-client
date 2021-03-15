@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header: FunctionComponent = function () {
   return (
     <nav className="nav">
-      <div>
+      <div className="trello-logo-div">
         <Link to="/homepage">
           <svg
             role="img"
