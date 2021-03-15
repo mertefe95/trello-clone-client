@@ -147,7 +147,7 @@ section#hero {
 .features-cards-title,
 .features-powerups-title,
 .features-butler-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   letter-spacing: 0.8px;
   line-height: 55px;
@@ -179,12 +179,6 @@ section#hero {
   margin: 60px 0;
 }
 
-.features-succeed {
-  flex-direction: column;
-  width: 70%;
-  text-align: left;
-}
-
 .features-text-above-title,
 .features-cards-text-above-title,
 .features-butler-text-above-title,
@@ -193,6 +187,7 @@ section#hero {
   line-height: 30px;
   font-size: 1rem;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .img-fluid {
@@ -206,4 +201,45 @@ section#hero {
   letter-spacing: 0.9px;
   font-size: 1.2rem !important;
   margin: 30px 0;
+}
+
+.card .btn:focus {
+  box-shadow: none;
+}
+
+.btn-link[aria-expanded='true']::before {
+  content: '- ';
+}
+
+.btn-link[aria-expanded='false']::before {
+  content: '+ ';
+}
+
+.card-header button {
+  color: black;
+  font-size: 1.5rem;
+  border: none;
+  background: transparent;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.card {
+  border: none !important;
+}
+
+.card-body {
+  font-size: 1.2rem;
+  padding-left: 0 !important;
+  letter-spacing: 0.7px;
+}
+
+.card-header {
+  background: transparent !important;
+  border-bottom: none !important;
+  padding-left: 0 !important;
+}
+
+.card-header button:hover {
+  color: black;
 }

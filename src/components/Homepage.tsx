@@ -3,6 +3,8 @@ import Header from './layouts/Header';
 import Footer from './layouts/Footer';
 import Form from 'react-bootstrap/Form';
 import { Link } from 'react-router-dom';
+import '../../node_modules/jquery/dist/jquery.min.js';
+import '../../node_modules/bootstrap/dist/js/bootstrap.min.js';
 
 const Homepage: FunctionComponent = function () {
   return (
@@ -51,7 +53,7 @@ const Homepage: FunctionComponent = function () {
               </Link>
             </div>
             <div className="row">
-              <div className="col col-lg ml-md-5 product-img-div">
+              <div className="col col-lg ml-md-5 product-img-div text-center d-flex justify-content-center">
                 <img
                   src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/product/89d378b845766a8f0c48e955336266f8/board.png"
                   width="1902"
@@ -171,91 +173,204 @@ const Homepage: FunctionComponent = function () {
       </section>
 
       <section id="features">
-        <div className="features-succeed">
-          <h2 className="features-succeed-title">Features to help your team succeed</h2>
-          <p className="features-succeed-text mt-2">
-            Powering a productive team means using a powerful tool (and plenty of snacks). From meetings and projects to
-            events and goal setting, Trello&apos;s intuitive features give any team the ability to quickly set up and
-            customize workflows for just about anything.
-          </p>
-        </div>
+        <div className="container">
+          <div className="features-succeed row flex-column text-left">
+            <div className="features-succeed-text-div col-xl-6 col-lg-7 col-md-12 col-12">
+              <h2 className="features-succeed-title">Features to help your team succeed</h2>
+              <p className="features-succeed-text mt-2">
+                Powering a productive team means using a powerful tool (and plenty of snacks). From meetings and
+                projects to events and goal setting, Trello&apos;s intuitive features give any team the ability to
+                quickly set up and customize workflows for just about anything.
+              </p>
+            </div>
+          </div>
 
-        <div className="features-board">
-          <div className="features-board-img-div col-md-5 mb-3 mb-md-0">
-            <img
-              src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/features/5f90e4a913ac52092f2ac7ff308c45c4/view.svg"
-              width="414.57"
-              height="312.57"
-              className="features-board-img img-fluid w-100"
-            />
-          </div>
-          <div className="features-board-text">
-            <p className="features-text-above-title">CHOOSE A VIEW</p>
-            <h2 className="features-board-title">The board is just the beginning</h2>
-            <p className="features-board-p">
-              List and cards are the building blocks of organizing work on a Trello board. Grow from there with task
-              assignments, timelines, productivity metrics, calendars, and more.
-            </p>
-          </div>
-        </div>
+          <div className="features-board row">
+            <div className="features-board-img-div col-xl-5 col-lg-5 col-md-5 col-12 mb-3 mb-md-0">
+              <img
+                src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/features/5f90e4a913ac52092f2ac7ff308c45c4/view.svg"
+                width="414.57"
+                height="312.57"
+                className="features-board-img img-fluid w-100"
+              />
+            </div>
+            <div className="features-board-text col-xl-7 col-lg-7 col-md-7">
+              <p className="features-text-above-title">CHOOSE A VIEW</p>
+              <h2 className="features-board-title">The board is just the beginning</h2>
+              <p className="features-board-p">
+                List and cards are the building blocks of organizing work on a Trello board. Grow from there with task
+                assignments, timelines, productivity metrics, calendars, and more.
+              </p>
 
-        <div className="features-cards">
-          <div className="features-cards-img-div col-md-5 order-md-2 mb-3 mb-md-0">
-            <img
-              src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/features/b845022d8d738ba8fa5e8b293e434149/card-back.svg"
-              width="339.13"
-              height="275.31"
-              className="features-cards-img img-fluid w-100"
-            />
+              <div id="accordion">
+                <div className="card">
+                  <div className="card-header" id="headingOne">
+                    <h3 className="mb-0">
+                      <button
+                        className="btn btn-link"
+                        data-toggle="collapse"
+                        data-target="#collapseOne"
+                        aria-expanded="false"
+                        aria-controls="collapseOne"
+                      >
+                        Learn more
+                      </button>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div className="card-body">
+                  <p>
+                    You and your team can start up a Trello board in seconds. With the ability to view board data from
+                    many different angles, the entire team stays up-to-date in the way that suits them best:
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="features-cards-text">
-            <p className="features-cards-text-above-title">DIVE INTO THE DETAILS</p>
-            <h2 className="features-cards-title">Cards contain everything you need.</h2>
-            <p className="features-cards-p">
-              Trello cards are your portal to more organized work—where every single part of your task can be managed,
-              tracked, and shared with teammates. Open any card to uncover an ecosystem of checklists, due dates,
-              attachments, conversations, and more.
-            </p>
-          </div>
-        </div>
+          <div className="features-cards row mt-3">
+            <div className="features-cards-img-div col-xl-5 col-lg-5 col-md-5 order-md-2 mb-3 mb-md-0">
+              <img
+                src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/features/b845022d8d738ba8fa5e8b293e434149/card-back.svg"
+                width="339.13"
+                height="275.31"
+                className="features-cards-img img-fluid w-100"
+              />
+            </div>
+            <div className="features-cards-text col-xl-7 col-lg-7 col-md-7">
+              <p className="features-cards-text-above-title">DIVE INTO THE DETAILS</p>
+              <h2 className="features-cards-title">Cards contain everything you need.</h2>
+              <p className="features-cards-p">
+                Trello cards are your portal to more organized work—where every single part of your task can be managed,
+                tracked, and shared with teammates. Open any card to uncover an ecosystem of checklists, due dates,
+                attachments, conversations, and more.
+              </p>
 
-        <div className="features-butler">
-          <div style={{ minHeight: '600px;' }} className="features-butler-img-div">
-            <img
-              src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/features/35366a300daac434fa02bc3ef83d8132/automation.png"
-              width="979"
-              height="740"
-              className="features-butler-img img-fluid w-100"
-            />
+              <div id="accordion2">
+                <div className="card">
+                  <div className="card-header" id="headingTwo">
+                    <h3 className="mb-0">
+                      <button
+                        className="btn btn-link"
+                        data-toggle="collapse"
+                        data-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        Learn more
+                      </button>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion2">
+                <div className="card-body">
+                  <p>
+                    Spin up a Trello card with a click, then uncover everything it can hold. Break down bigger card
+                    tasks into steps with file attachment previews, reminders, checklists and comments emoji reactions
+                    included! Plus, gain powerful perspective by seeing all cards by list and status at the board level.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="features-butler-text">
-            <p className="features-butler-text-above-title">MEET YOUR NEW BUTLER</p>
-            <h2 className="features-butler-title">No-code automation</h2>
-            <p className="features-butler-p">
-              Let the robots do the work so your team can focus on work that matters. With&apos;s built-in automation,
-              Butler, reduce the number of tedious tasks (and clicks) on your project board by harnessing the power of
-              automation across your entire team.
-            </p>
-          </div>
-        </div>
 
-        <div className="features-powerups">
-          <div className="features-powerups-text">
-            <p className="features-powerups-text-above-title">POWER-UPS</p>
-            <h2 className="features-powerups-title">Integrate top work tools</h2>
-            <p className="features-powerups-p">
-              Easily connect the apps your team already uses into your Trello workflow, or add a Power-Up that helps
-              fine-tune one specific need. With hundreds of Power-Ups available, your team&apos;s workflow wishes are
-              covered.
-            </p>
+          <div className="features-butler row mt-3">
+            <div className="features-butler-img-div col-xl-5 col-lg-5 col-md-5">
+              <img
+                src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/features/35366a300daac434fa02bc3ef83d8132/automation.png"
+                width="979"
+                height="740"
+                className="features-butler-img img-fluid w-100"
+              />
+            </div>
+            <div className="features-butler-text col-xl-7 col-lg-7 col-md-7">
+              <p className="features-butler-text-above-title">MEET YOUR NEW BUTLER</p>
+              <h2 className="features-butler-title">No-code automation</h2>
+              <p className="features-butler-p">
+                Let the robots do the work so your team can focus on work that matters. With&apos;s built-in automation,
+                Butler, reduce the number of tedious tasks (and clicks) on your project board by harnessing the power of
+                automation across your entire team.
+              </p>
+
+              <div id="accordion3">
+                <div className="card">
+                  <div className="card-header" id="headingThree">
+                    <h3 className="mb-0">
+                      <button
+                        className="btn btn-link"
+                        data-toggle="collapse"
+                        data-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        Learn more
+                      </button>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion3">
+                <div className="card-body">
+                  <p>Butler uses natural language commands to automate just about any task in Trello:</p>
+                  <ul>
+                    <li>Automate common actions like moving lists</li>
+                    <li>Create custom buttons to build process quickly</li>
+                    <li>Surface upcoming deadlines to the team</li> <li>Schedule teammate assignments, and more!</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="features-powerups-img-div col-md-5 order-md-2 mb-3 mb-md-0">
-            <img
-              src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/features/7a11db312701af17abefa8e691cf124a/power-ups.png"
-              width="753"
-              height="678"
-              className="features-powerups-img img-fluid w-100"
-            />
+
+          <div className="features-powerups row mt-3">
+            <div className="features-powerups-text col-xl-7 col-lg-7 col-md-7">
+              <p className="features-powerups-text-above-title">POWER-UPS</p>
+              <h2 className="features-powerups-title">Integrate top work tools</h2>
+              <p className="features-powerups-p">
+                Easily connect the apps your team already uses into your Trello workflow, or add a Power-Up that helps
+                fine-tune one specific need. With hundreds of Power-Ups available, your team&apos;s workflow wishes are
+                covered.
+              </p>
+              <div id="accordion4">
+                <div className="card">
+                  <div className="card-header" id="headingFour">
+                    <h3 className="mb-0">
+                      <button
+                        className="btn btn-link"
+                        data-toggle="collapse"
+                        data-target="#collapseFour"
+                        aria-expanded="false"
+                        aria-controls="collapseFour"
+                      >
+                        Learn more
+                      </button>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion4">
+                <div className="card-body">
+                  <p>
+                    From Reporting to Custom Fields to your beloved software integrations—we&apos;ve got
+                    functionalities, your favorites, and more!
+                  </p>
+                  <p>Such as:</p>
+                  <ul>
+                    <li>Confluence</li> <li>Slack</li> <li>Dropbox</li> <li>Google Drive</li> <li>Evernote</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="features-powerups-img-div col-xl-5 col-lg-5 col-md-5 order-md-2 mb-3 mb-md-0">
+              <img
+                src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/features/7a11db312701af17abefa8e691cf124a/power-ups.png"
+                width="753"
+                height="678"
+                className="features-powerups-img img-fluid w-100"
+              />
+            </div>
           </div>
         </div>
       </section>
