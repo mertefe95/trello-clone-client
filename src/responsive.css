@@ -91,6 +91,7 @@
   .nav-rightside {
     left: -80px !important;
     top: 1px !important;
+    margin-right: 0 !important;
   }
 
   .homepage-email {
@@ -104,11 +105,11 @@
 
   .hero-container {
     padding-top: 50px !important;
-    padding-right: 80px !important;
+    padding-right: 15px !important;
   }
 
   .product-container {
-    padding-right: 80px !important;
+    padding-right: 15px !important;
   }
 
   .product-p {
@@ -121,7 +122,7 @@
   }
 
   .product-img-div {
-    right: -70px !important;
+    right: -80px !important;
   }
 
   .product-logos-text {
