@@ -49,8 +49,7 @@
   .product-logos-text {
     font-size: 1.1rem;
     padding: 10px 30px;
-
-}
+  }
 }
 
 /* Responsible */
@@ -73,13 +72,61 @@
     font-size: 2rem;
   }
 
-  #hero {
-    padding: 50px 100px;
+  #hero,
+  #product {
+    padding: 50px 0px;
     display: block;
+    text-align: center;
   }
 
   .left-hero {
     margin-right: 0px;
+  }
+
+  .homepage-hero-title {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+
+  .nav-rightside {
+    left: -80px !important;
+    top: 1px !important;
+  }
+
+  .homepage-email {
+    display: none !important;
+  }
+
+  .homepage-signup-form {
+    max-width: 295px !important;
+    margin-left: 15px !important;
+  }
+
+  .hero-container {
+    padding-top: 50px !important;
+    padding-right: 80px !important;
+  }
+
+  .product-container {
+    padding-right: 80px !important;
+  }
+
+  .product-p {
+    padding: 0 5px;
+  }
+
+  .product-title {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+
+  .product-img-div {
+    right: -70px !important;
+  }
+
+  .product-logos-text {
+    padding: 10px 10px;
+    margin-top: 10px;
   }
 }
 
