@@ -419,9 +419,31 @@ const Homepage: FunctionComponent = function () {
       </section>
 
       <section id="customer-stories">
-        <div className="container carousel py-5" data-show="3">
-          <div className="frame">
-            <div className="track">
+        <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+          <div className="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              className="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div className="carousel-inner">
+            <div className="carousel-item active">
               <div className="row align-items-center">
                 <div className="col-xl-3">
                   <div
@@ -464,6 +486,8 @@ const Homepage: FunctionComponent = function () {
                   </footer>
                 </div>
               </div>
+            </div>
+            <div className="carousel-item">
               <div className="row align-items-center">
                 <div className="col-xl-3">
                   <div
@@ -506,6 +530,8 @@ const Homepage: FunctionComponent = function () {
                   </footer>
                 </div>
               </div>
+            </div>
+            <div className="carousel-item">
               <div className="row align-items-center">
                 <div className="col-xl-3">
                   <div
@@ -548,16 +574,98 @@ const Homepage: FunctionComponent = function () {
                   </footer>
                 </div>
               </div>
+            </div>
+
+            <div className="carousel-item">
               <div className="row align-items-center">
-                <div className="col-xl-3"></div>
-                <div className="col-xl-9"></div>
+                <div className="col-xl-3">
+                  <div
+                    className="logo mb-5 mx-auto ml-md-0"
+                    style={{
+                      backgroundImage:
+                        'url(' +
+                        'https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/customer-stories/f93e7c80e565d256f80d72ef924f18c8/sprout-social.svg' +
+                        ')',
+                    }}
+                  >
+                    Sprout Social
+                  </div>
+                  <div className="d-none d-md-block mb-md-5">
+                    <h5>Industry</h5>
+                    <h3 className="m-0">Marketing</h3>
+                  </div>
+                </div>
+                <div className="col-xl-9">
+                  <blockquote className="text-center text-md-left pl-md-5 pt-md-4">
+                    <svg
+                      role="img"
+                      aria-label="Quote"
+                      fill="none"
+                      height="41"
+                      viewBox="0 0 55 41"
+                      width="55"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m53.76 28.32c0-7.32-3.84-11.4-11.64-11.52 1.68-2.64 6.36-4.08 12.6-4.44v-12.36c-17.28.960002-26.88 10.2-26.88 24.24 0 11.4 5.64 16.08 13.2 16.08 7.92 0 12.72-4.68 12.72-12zm-27.84 0c0-7.32-3.84-11.4-11.64-11.52 1.68-2.64 6.36-4.08 12.6-4.44v-12.36c-17.28.960002-26.88 10.2-26.88 24.24 0 11.4 5.64 16.08 13.2 16.08 7.92 0 12.72-4.68 12.72-12z"></path>
+                    </svg>
+                    Now that we&apos;ve switched to a remote environment, with the use of Trello, we can now limit the
+                    number of meetings we have regarding specific projects and turn to Trello for updates instead.
+                  </blockquote>
+                  <footer className="carousel-footer d-md-flex flex-row-reverse m-0 mt-3 text-center text-md-left">
+                    <span>
+                      <h5 className="m-0">Haley Ennes</h5>
+                      HR Manager, Sprout Social
+                    </span>
+                  </footer>
+                </div>
               </div>
+            </div>
+          </div>
+          <button
+            className="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button
+            className="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <section id="sign-up">
+        <div className="container sign-up-container">
+          <div className="row sign-up-row">
+            <div className="col-11 sign-up-col d-flex justify-content-center align-items-center">
+              <form className="sign-up-form d-flex flex-column justify-content-center align-items-center">
+                <h4 className="sign-up-title">
+                  Sign up and get started with Trello today. A world of productive teamwork awaits!
+                </h4>
+                <div className="d-flex mt-4 align-items-center justify-content-center">
+                  <input
+                    placeholder="Email"
+                    name="email"
+                    className="sign-up-email-input form-control mr-2"
+                    type="email"
+                  />
+                  <button className="sign-up-email-button btn btn-block btn-secondary" type="submit">
+                    Sign up
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
       </section>
-
-      <section id="sign-up"></section>
 
       <section id="apps"></section>
 
