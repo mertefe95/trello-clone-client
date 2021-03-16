@@ -287,16 +287,19 @@ section#customer-stories .carousel .row {
   background: #eae6ff !important;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#4c9aff), to(#403294)) !important;
   background-image: linear-gradient(0deg, #4c9aff, #403294 100%) !important;
-  background-image: url('https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/sign-up/95ae6a1…/background.svg'),
+  background-image: url('./images/trello-signup-background.png'),
     -webkit-gradient(linear, left bottom, left top, from(#4c9aff), to(#403294)) !important;
-  background-image: url('https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/sign-up/95ae6a1…/background.svg'),
-    linear-gradient(0deg, #4c9aff, #403294 100%) !important;
+  background-image: url('./images/trello-signup-background.png'), linear-gradient(0deg, #4c9aff, #403294 100%) !important;
   background-position: center top !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   border-radius: 8px !important;
   color: #fff !important;
   height: 300px;
+}
+
+.sign-up-row {
+  margin-left: 10px !important;
 }
 
 .btn-secondary {
@@ -340,4 +343,18 @@ section#customer-stories .carousel .row {
 .sign-up-title {
   font-weight: bold;
   padding-bottom: 20px;
+}
+
+#apps {
+  background-color: #fafbfc;
+}
+
+.apps-text {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  color: #091e42;
+}
+
+.apps-container {
+  min-height: 100px;
 }

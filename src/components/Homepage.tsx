@@ -645,7 +645,7 @@ const Homepage: FunctionComponent = function () {
       <section id="sign-up">
         <div className="container sign-up-container">
           <div className="row sign-up-row">
-            <div className="col-11 sign-up-col d-flex justify-content-center align-items-center">
+            <div className="col-xl-12 col-lg-11 col-md-11 col-12 sign-up-col d-flex justify-content-center align-items-center">
               <form className="sign-up-form d-flex flex-column justify-content-center align-items-center">
                 <h4 className="sign-up-title">
                   Sign up and get started with Trello today. A world of productive teamwork awaits!
@@ -667,7 +667,44 @@ const Homepage: FunctionComponent = function () {
         </div>
       </section>
 
-      <section id="apps"></section>
+      <section id="apps">
+        <div className="container apps-container">
+          <div className="row apps-row d-flex align-items-center justify-content-center pt-3 pb-3 pb-md-3">
+            <div className="col-xl-8 col-lg-8 col-md-12 col-12 apps-text-col ">
+              <p className="apps-text text-center text-sm-center text-lg-right mt-3">
+                Trello also works great on your smaller screen.{' '}
+              </p>
+            </div>
+
+            <div className="apple-col col-xl-2 col-lg-2 col-md-3 col-6">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://apps.apple.com/app/trello-organize-anything/id461504587"
+              >
+                <img
+                  src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/apps/0b6d7bcb7ee4c84ef5e8141269925e9a/apple.svg"
+                  width="217"
+                  height="64"
+                  alt="Available on the App Store"
+                  className="w-100 img-fluid apple-img"
+                />
+              </a>
+            </div>
+            <div className="google-col col-xl-2 col-lg-2 col-md-3 col-6">
+              <a rel="noreferrer" target="_blank" href="https://play.google.com/store/apps/details?id=com.trello">
+                <img
+                  src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/apps/c3a2a289499157072145f1bd73d7610d/google.svg"
+                  width="217"
+                  height="64"
+                  alt="Get it on Google Play"
+                  className="w-100 img-fluid google-img"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <Footer />
     </div>
