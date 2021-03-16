@@ -243,3 +243,26 @@ section#hero {
 .card-header button:hover {
   color: black;
 }
+
+.check-out-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.check-out-text {
+  font-size: 1.4rem;
+  min-height: 100px;
+}
+
+.check-out-row {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding: 25px 0;
+}
+
+.check-out-link {
+  width: 40%;
+  font-weight: bold !important;
+  letter-spacing: 1px;
+  font-size: 1rem !important;
+}

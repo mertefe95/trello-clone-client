@@ -375,9 +375,187 @@ const Homepage: FunctionComponent = function () {
         </div>
       </section>
 
-      <section id="check-out"></section>
+      <section id="check-out">
+        <div className="container check-out-container">
+          <div className="row check-out-row d-flex justify-content-center align-items-center">
+            <div className="col-xl-6 col-lg-6 col-md-6 check-out-left-col d-flex check-out-col">
+              <div className="check-out-left-img-div check-out-img-div d-none d-lg-flex col-lg-3 align-items-start">
+                <img
+                  src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/check-out/50d8061c0434175f65976c3afbb8209c/tag.svg"
+                  width="103"
+                  height="167"
+                  className="check-out-left-img check-out-img img-fluid"
+                  alt=""
+                />
+              </div>
+              <div className="check-out-left-text-div check-out-text-div d-flex flex-column">
+                <h4 className="checkout-left-title check-out-title">See our pricing</h4>
+                <p className="checkout-left-text check-out-text">
+                  Whether you&apos;re a team of 2 or 2,000, there&apos;s a Trello tailor-made for your organization.
+                </p>
+                <a className="px-2 check-out-left-link check-out-link btn btn-outline-primary btn-sm">Trello pricing</a>
+              </div>
+            </div>
+            <div className="col-xl-6 col-lg-6 col-md-6 check-out-right-col check-out-col d-flex">
+              <div className="check-out-right-img-div check-out-img-div d-none d-lg-flex col-lg-3 align-items-start">
+                <img
+                  src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/check-out/0efeb9f898969b67a9b80dca30183b9d/compass.svg"
+                  width="134"
+                  height="161"
+                  className="check-out-img check-out-right-img img-fluid"
+                  alt=""
+                />
+              </div>
+              <div className="check-out-right-text-div check-out-text-div d-flex flex-column order-2">
+                <h3 className="check-out-right-title check-out-title">Take a Trello tour</h3>
+                <p className="check-out-right-text check-out-text">
+                  Explore the world of boards and beyond in Trello. Dive deeper into our most popular features.
+                </p>
+                <a className="px-2 check-out-right-link check-out-link btn btn-outline-primary btn-sm ">Tour Trello</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <section id="customer-stories"></section>
+      <section id="customer-stories">
+        <div className="container carousel py-5" data-show="3">
+          <div className="frame">
+            <div className="track">
+              <div className="row align-items-center">
+                <div className="col-xl-3">
+                  <div
+                    className="logo mb-5 mx-auto ml-md-0"
+                    style={{
+                      backgroundImage:
+                        'url(' +
+                        'https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/customer-stories/4c529ec1377a131a1ae1772cb57b5ab2/ebay.svg' +
+                        ')',
+                    }}
+                  >
+                    eBay
+                  </div>
+                  <div className="d-none d-md-block mb-md-5">
+                    <h5>Industry</h5>
+                    <h3 className="m-0">eCommerce</h3>
+                  </div>
+                </div>
+                <div className="col-xl-9">
+                  <blockquote className="text-center text-md-left pl-md-5 pt-md-4">
+                    <svg
+                      role="img"
+                      aria-label="Quote"
+                      fill="none"
+                      height="41"
+                      viewBox="0 0 55 41"
+                      width="55"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m53.76 28.32c0-7.32-3.84-11.4-11.64-11.52 1.68-2.64 6.36-4.08 12.6-4.44v-12.36c-17.28.960002-26.88 10.2-26.88 24.24 0 11.4 5.64 16.08 13.2 16.08 7.92 0 12.72-4.68 12.72-12zm-27.84 0c0-7.32-3.84-11.4-11.64-11.52 1.68-2.64 6.36-4.08 12.6-4.44v-12.36c-17.28.960002-26.88 10.2-26.88 24.24 0 11.4 5.64 16.08 13.2 16.08 7.92 0 12.72-4.68 12.72-12z"></path>
+                    </svg>
+                    Everyone loves it; it has democratized our finance function. In some ways Trello shattered hierarchy
+                    and brought us together.
+                  </blockquote>
+                  <footer className="carousel-footer d-md-flex flex-row-reverse m-0 mt-3 text-center text-md-left">
+                    <span>
+                      <h5 className="m-0">Bharath Sundar</h5>
+                      Finance, eBay
+                    </span>
+                  </footer>
+                </div>
+              </div>
+              <div className="row align-items-center">
+                <div className="col-xl-3">
+                  <div
+                    className="logo mb-5 mx-auto ml-md-0"
+                    style={{
+                      backgroundImage:
+                        'url(' +
+                        'https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/customer-stories/92d313945b0328e62cd9968ea7026700/egencia.svg' +
+                        ')',
+                    }}
+                  >
+                    Egencia
+                  </div>
+                  <div className="d-none d-md-block mb-md-5">
+                    <h5>Industry</h5>
+                    <h3 className="m-0">Travel</h3>
+                  </div>
+                </div>
+                <div className="col-xl-9">
+                  <blockquote className="text-center text-md-left pl-md-5 pt-md-4">
+                    <svg
+                      role="img"
+                      aria-label="Quote"
+                      fill="none"
+                      height="41"
+                      viewBox="0 0 55 41"
+                      width="55"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m53.76 28.32c0-7.32-3.84-11.4-11.64-11.52 1.68-2.64 6.36-4.08 12.6-4.44v-12.36c-17.28.960002-26.88 10.2-26.88 24.24 0 11.4 5.64 16.08 13.2 16.08 7.92 0 12.72-4.68 12.72-12zm-27.84 0c0-7.32-3.84-11.4-11.64-11.52 1.68-2.64 6.36-4.08 12.6-4.44v-12.36c-17.28.960002-26.88 10.2-26.88 24.24 0 11.4 5.64 16.08 13.2 16.08 7.92 0 12.72-4.68 12.72-12z"></path>
+                    </svg>
+                    Very simple to use, great automation and keeps me on track with all I need to do. I also like that
+                    it can be shared with others.
+                  </blockquote>
+                  <footer className="carousel-footer d-md-flex flex-row-reverse m-0 mt-3 text-center text-md-left">
+                    <span>
+                      <h5 className="m-0">Kerry Parker-Evans</h5>
+                      IT Project Manager, Egencia
+                    </span>
+                  </footer>
+                </div>
+              </div>
+              <div className="row align-items-center">
+                <div className="col-xl-3">
+                  <div
+                    className="logo mb-5 mx-auto ml-md-0"
+                    style={{
+                      backgroundImage:
+                        'url(' +
+                        'https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/customer-stories/2f3fc11945305a393eec0b6f8fe97531/detroit-red-wings.svg' +
+                        ')',
+                    }}
+                  >
+                    Detroit Red Wings
+                  </div>
+                  <div className="d-none d-md-block mb-md-5">
+                    <h5>Industry</h5>
+                    <h3 className="m-0">Sport</h3>
+                  </div>
+                </div>
+                <div className="col-xl-9">
+                  <blockquote className="text-center text-md-left pl-md-5 pt-md-4">
+                    <svg
+                      role="img"
+                      aria-label="Quote"
+                      fill="none"
+                      height="41"
+                      viewBox="0 0 55 41"
+                      width="55"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m53.76 28.32c0-7.32-3.84-11.4-11.64-11.52 1.68-2.64 6.36-4.08 12.6-4.44v-12.36c-17.28.960002-26.88 10.2-26.88 24.24 0 11.4 5.64 16.08 13.2 16.08 7.92 0 12.72-4.68 12.72-12zm-27.84 0c0-7.32-3.84-11.4-11.64-11.52 1.68-2.64 6.36-4.08 12.6-4.44v-12.36c-17.28.960002-26.88 10.2-26.88 24.24 0 11.4 5.64 16.08 13.2 16.08 7.92 0 12.72-4.68 12.72-12z"></path>
+                    </svg>
+                    Trello makes it easy to keep everyone on the same page. As changes happen, the real-time updates
+                    with email notifications have been key.
+                  </blockquote>
+                  <footer className="d-md-flex flex-row-reverse m-0 mt-3 text-center text-md-left">
+                    <span>
+                      <h5 className="m-0">Haydon Dotson</h5>
+                      Sales Manager, Detroit Red Wings
+                    </span>
+                  </footer>
+                </div>
+              </div>
+              <div className="row align-items-center">
+                <div className="col-xl-3"></div>
+                <div className="col-xl-9"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section id="sign-up"></section>
 

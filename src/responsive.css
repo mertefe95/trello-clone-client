@@ -70,6 +70,9 @@
   #features {
     padding: 100px 40px !important;
   }
+  .check-out-row {
+    padding: 40px 0;
+  }
 }
 
 /* Responsible */
@@ -155,18 +158,33 @@
   #features .container {
     padding-right: 0;
   }
+
+  .check-out-title {
+    font-size: 1.5rem;
+  }
+
+  .check-out-text {
+    font-size: 1.3rem;
+  }
+
+  .check-out-left-col {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 360px) {
   .nav-rightside {
     left: 170px !important;
-
     top: -10px !important;
   }
 
   .trello-logo-div {
     top: 17px !important;
     position: relative;
+  }
+
+  .check-out-link {
+    width: 50%;
   }
 }
 
