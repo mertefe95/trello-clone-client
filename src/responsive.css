@@ -134,7 +134,7 @@
   }
 
   .apps-row {
-    right: -30px;
+    right: -20px;
   }
 
   .global-footer-ul {
@@ -177,9 +177,17 @@
     font-size: 2rem;
   }
 
+  #hero .row {
+    left: 0;
+  }
+
+  .trello-logo-div {
+    left: 20px;
+  }
+
   #hero,
   #product {
-    padding: 50px 0px;
+    padding: 50px 30px;
     display: block;
     text-align: center;
   }
@@ -226,7 +234,7 @@
   }
 
   #features {
-    padding: 20px 20px !important;
+    padding: 20px 50px 20px 20px !important;
   }
 
   section h2 {
@@ -257,6 +265,8 @@
   .sign-up-row {
     margin-left: -15px !important;
     margin-right: 30px !important;
+    position: relative;
+    right: -5px;
   }
 
   .sign-up-title {
@@ -280,22 +290,17 @@
     right: 0 !important;
   }
 
-  .sign-up-row {
-    position: relative;
-    right: -66px;
-  }
-
   .apps-row {
-    margin-left: 90px !important;
-  }
-
-  .global-footer-ul {
-    padding-left: 170px;
+    margin-right: 30px !important;
   }
 
   .global-footer-select {
     position: relative;
-    left: 20px;
+    right: 65px;
+  }
+
+  .global-footer-ul {
+    padding-right: 40px;
   }
 
   .arrow-icon {
@@ -303,26 +308,28 @@
   }
 
   .global-footer-img-div {
-    padding-left: 160px;
+    padding-left: 10px;
   }
 
   .global-footer-copyright {
-    padding-left: 160px;
+    padding-left: 20px;
+    text-align: center;
+  }
+
+  .global-footer {
     text-align: center;
   }
 }
 
 @media screen and (max-width: 380px) {
   .sign-up-row {
-    position: relative;
-    right: -46px;
+    right: 6px;
   }
 }
 
 @media screen and (max-width: 370px) {
   .sign-up-row {
-    position: relative;
-    left: 40px;
+    right: 13px;
   }
 }
 
@@ -333,8 +340,9 @@
   }
 
   .trello-logo-div {
-    top: 17px !important;
+    top: 20px !important;
     position: relative;
+    left: -4px;
   }
 
   .check-out-link {
@@ -347,7 +355,14 @@
 
   .sign-up-row {
     position: relative;
-    left: 40px;
+    left: 15px;
+  }
+
+  .sign-up-title {
+    padding: 20px;
+  }
+  .sign-up-email-button {
+    width: 200px !important;
   }
 }
 

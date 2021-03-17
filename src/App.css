@@ -302,10 +302,6 @@ section#customer-stories .carousel .row {
   margin-left: 10px !important;
 }
 
-.sign-up-col {
-  min-height: 300px;
-}
-
 .btn-secondary {
   color: #fff !important;
   background-color: #00b8d9 !important;
@@ -342,6 +338,8 @@ section#customer-stories .carousel .row {
 .sign-up-col {
   padding: 10px 160px !important;
   text-align: center;
+  min-width: 250px;
+  min-height: 300px;
 }
 
 .sign-up-title {
