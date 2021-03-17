@@ -1,6 +1,7 @@
 @media only screen and (max-width: 1199px) {
   .nav-rightside {
     right: -260px;
+    top: 0px;
   }
 
   .right-hero {
@@ -14,7 +15,7 @@
   .product-image {
     width: 75% !important;
     position: relative;
-    right: 40px;
+    right: 60px;
   }
 
   #features {
@@ -77,7 +78,7 @@
 
 @media only screen and (max-width: 993px) {
   .nav-rightside {
-    right: -120px;
+    right: -160px;
   }
 
   .right-hero {
@@ -129,11 +130,11 @@
 
   .sign-up-row {
     margin-left: 0.5rem !important;
-    padding: 0 50px 0 36px;
+    padding: 0 50px 0 50px;
   }
 
   .apps-row {
-    right: 45px;
+    right: 0px;
   }
 
   .global-footer-ul {

@@ -42,13 +42,13 @@ const Homepage: FunctionComponent = function () {
       <section id="product">
         <div className="product-container container text-center">
           <div className="row d-flex flex-column align-items-center justify-content-center">
-            <div className="col-12 col-md-10 col-lg-10 col-xl-12">
+            <div className="col-12 col-md-10 col-lg-10 col-xl-12 ml-md-3">
               <h2 className="product-title">It&apos;s more than work. It&apos;s a way of working together.</h2>
               <p className="product-p">
                 Start with a Trello board, lists, and cards. Customize and expand with more features as your teamwork
                 grows. Manage projects, organize tasks, and build team spirit—all in one place.
               </p>
-              <Link className="start-doing-btn btn btn-outline-primary" to="/">
+              <Link className="start-doing-btn btn btn-outline-primary ml-md-3" to="/">
                 Start doing →
               </Link>
             </div>
