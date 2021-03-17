@@ -302,6 +302,10 @@ section#customer-stories .carousel .row {
   margin-left: 10px !important;
 }
 
+.sign-up-col {
+  min-height: 300px;
+}
+
 .btn-secondary {
   color: #fff !important;
   background-color: #00b8d9 !important;
@@ -357,4 +361,50 @@ section#customer-stories .carousel .row {
 
 .apps-container {
   min-height: 100px;
+}
+
+.global-footer-select {
+  appearance: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid #edeff0;
+  color: #959da1;
+  padding: 0.5em;
+  font-weight: bold;
+}
+
+.global-footer-select option {
+  font-weight: bold;
+}
+
+.global-footer-select:active {
+  border: 2px solid #edeff0 !important;
+  color: #959da1 !important;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.arrow-icon {
+  color: #8993a4;
+  top: 82px;
+  left: 150px;
+}
+
+.global-footer-ul {
+  list-style: none;
+
+  letter-spacing: 0.7px;
+
+  font-weight: bold;
+}
+
+.global-footer-ul a {
+  text-decoration: underline;
+  color: #8993a4;
+}
+
+.global-footer-ul a:hover {
+  color: #4d4d4d;
+}
+
+.global-footer-li {
+  margin: 0 10px;
 }

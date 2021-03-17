@@ -41,7 +41,7 @@ const Homepage: FunctionComponent = function () {
 
       <section id="product">
         <div className="product-container container text-center">
-          <div className="row">
+          <div className="row d-flex flex-column align-items-center justify-content-center">
             <div className="col-12 col-md-10 col-lg-10 col-xl-12">
               <h2 className="product-title">It&apos;s more than work. It&apos;s a way of working together.</h2>
               <p className="product-p">
@@ -53,7 +53,7 @@ const Homepage: FunctionComponent = function () {
               </Link>
             </div>
           </div>
-          <div className="row">
+          <div className="row d-flex flex-column align-items-center justify-content-center">
             <div className="col col-lg ml-md-5 product-img-div text-center d-flex justify-content-center">
               <img
                 src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/product/89d378b845766a8f0c48e955336266f8/board.png"
@@ -65,7 +65,7 @@ const Homepage: FunctionComponent = function () {
             </div>
           </div>
 
-          <div className="row">
+          <div className="row d-flex flex-column align-items-center justify-content-center">
             <div className="col-12 col-md-10 col-lg-10 col-xl-12">
               <p className="product-logos-text mb-4">
                 Join over 1,000,000 teams worldwide that are using Trello to get more done.
@@ -418,234 +418,10 @@ const Homepage: FunctionComponent = function () {
         </div>
       </section>
 
-      <section id="customer-stories">
-        <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-          <div className="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              className="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <div className="row align-items-center">
-                <div className="col-xl-3">
-                  <div
-                    className="logo mb-5 mx-auto ml-md-0"
-                    style={{
-                      backgroundImage:
-                        'url(' +
-                        'https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/customer-stories/4c529ec1377a131a1ae1772cb57b5ab2/ebay.svg' +
-                        ')',
-                    }}
-                  >
-                    eBay
-                  </div>
-                  <div className="d-none d-md-block mb-md-5">
-                    <h5>Industry</h5>
-                    <h3 className="m-0">eCommerce</h3>
-                  </div>
-                </div>
-                <div className="col-xl-9">
-                  <blockquote className="text-center text-md-left pl-md-5 pt-md-4">
-                    <svg
-                      role="img"
-                      aria-label="Quote"
-                      fill="none"
-                      height="41"
-                      viewBox="0 0 55 41"
-                      width="55"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="m53.76 28.32c0-7.32-3.84-11.4-11.64-11.52 1.68-2.64 6.36-4.08 12.6-4.44v-12.36c-17.28.960002-26.88 10.2-26.88 24.24 0 11.4 5.64 16.08 13.2 16.08 7.92 0 12.72-4.68 12.72-12zm-27.84 0c0-7.32-3.84-11.4-11.64-11.52 1.68-2.64 6.36-4.08 12.6-4.44v-12.36c-17.28.960002-26.88 10.2-26.88 24.24 0 11.4 5.64 16.08 13.2 16.08 7.92 0 12.72-4.68 12.72-12z"></path>
-                    </svg>
-                    Everyone loves it; it has democratized our finance function. In some ways Trello shattered hierarchy
-                    and brought us together.
-                  </blockquote>
-                  <footer className="carousel-footer d-md-flex flex-row-reverse m-0 mt-3 text-center text-md-left">
-                    <span>
-                      <h5 className="m-0">Bharath Sundar</h5>
-                      Finance, eBay
-                    </span>
-                  </footer>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div className="row align-items-center">
-                <div className="col-xl-3">
-                  <div
-                    className="logo mb-5 mx-auto ml-md-0"
-                    style={{
-                      backgroundImage:
-                        'url(' +
-                        'https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/customer-stories/92d313945b0328e62cd9968ea7026700/egencia.svg' +
-                        ')',
-                    }}
-                  >
-                    Egencia
-                  </div>
-                  <div className="d-none d-md-block mb-md-5">
-                    <h5>Industry</h5>
-                    <h3 className="m-0">Travel</h3>
-                  </div>
-                </div>
-                <div className="col-xl-9">
-                  <blockquote className="text-center text-md-left pl-md-5 pt-md-4">
-                    <svg
-                      role="img"
-                      aria-label="Quote"
-                      fill="none"
-                      height="41"
-                      viewBox="0 0 55 41"
-                      width="55"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="m53.76 28.32c0-7.32-3.84-11.4-11.64-11.52 1.68-2.64 6.36-4.08 12.6-4.44v-12.36c-17.28.960002-26.88 10.2-26.88 24.24 0 11.4 5.64 16.08 13.2 16.08 7.92 0 12.72-4.68 12.72-12zm-27.84 0c0-7.32-3.84-11.4-11.64-11.52 1.68-2.64 6.36-4.08 12.6-4.44v-12.36c-17.28.960002-26.88 10.2-26.88 24.24 0 11.4 5.64 16.08 13.2 16.08 7.92 0 12.72-4.68 12.72-12z"></path>
-                    </svg>
-                    Very simple to use, great automation and keeps me on track with all I need to do. I also like that
-                    it can be shared with others.
-                  </blockquote>
-                  <footer className="carousel-footer d-md-flex flex-row-reverse m-0 mt-3 text-center text-md-left">
-                    <span>
-                      <h5 className="m-0">Kerry Parker-Evans</h5>
-                      IT Project Manager, Egencia
-                    </span>
-                  </footer>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div className="row align-items-center">
-                <div className="col-xl-3">
-                  <div
-                    className="logo mb-5 mx-auto ml-md-0"
-                    style={{
-                      backgroundImage:
-                        'url(' +
-                        'https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/customer-stories/2f3fc11945305a393eec0b6f8fe97531/detroit-red-wings.svg' +
-                        ')',
-                    }}
-                  >
-                    Detroit Red Wings
-                  </div>
-                  <div className="d-none d-md-block mb-md-5">
-                    <h5>Industry</h5>
-                    <h3 className="m-0">Sport</h3>
-                  </div>
-                </div>
-                <div className="col-xl-9">
-                  <blockquote className="text-center text-md-left pl-md-5 pt-md-4">
-                    <svg
-                      role="img"
-                      aria-label="Quote"
-                      fill="none"
-                      height="41"
-                      viewBox="0 0 55 41"
-                      width="55"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="m53.76 28.32c0-7.32-3.84-11.4-11.64-11.52 1.68-2.64 6.36-4.08 12.6-4.44v-12.36c-17.28.960002-26.88 10.2-26.88 24.24 0 11.4 5.64 16.08 13.2 16.08 7.92 0 12.72-4.68 12.72-12zm-27.84 0c0-7.32-3.84-11.4-11.64-11.52 1.68-2.64 6.36-4.08 12.6-4.44v-12.36c-17.28.960002-26.88 10.2-26.88 24.24 0 11.4 5.64 16.08 13.2 16.08 7.92 0 12.72-4.68 12.72-12z"></path>
-                    </svg>
-                    Trello makes it easy to keep everyone on the same page. As changes happen, the real-time updates
-                    with email notifications have been key.
-                  </blockquote>
-                  <footer className="d-md-flex flex-row-reverse m-0 mt-3 text-center text-md-left">
-                    <span>
-                      <h5 className="m-0">Haydon Dotson</h5>
-                      Sales Manager, Detroit Red Wings
-                    </span>
-                  </footer>
-                </div>
-              </div>
-            </div>
-
-            <div className="carousel-item">
-              <div className="row align-items-center">
-                <div className="col-xl-3">
-                  <div
-                    className="logo mb-5 mx-auto ml-md-0"
-                    style={{
-                      backgroundImage:
-                        'url(' +
-                        'https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/customer-stories/f93e7c80e565d256f80d72ef924f18c8/sprout-social.svg' +
-                        ')',
-                    }}
-                  >
-                    Sprout Social
-                  </div>
-                  <div className="d-none d-md-block mb-md-5">
-                    <h5>Industry</h5>
-                    <h3 className="m-0">Marketing</h3>
-                  </div>
-                </div>
-                <div className="col-xl-9">
-                  <blockquote className="text-center text-md-left pl-md-5 pt-md-4">
-                    <svg
-                      role="img"
-                      aria-label="Quote"
-                      fill="none"
-                      height="41"
-                      viewBox="0 0 55 41"
-                      width="55"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="m53.76 28.32c0-7.32-3.84-11.4-11.64-11.52 1.68-2.64 6.36-4.08 12.6-4.44v-12.36c-17.28.960002-26.88 10.2-26.88 24.24 0 11.4 5.64 16.08 13.2 16.08 7.92 0 12.72-4.68 12.72-12zm-27.84 0c0-7.32-3.84-11.4-11.64-11.52 1.68-2.64 6.36-4.08 12.6-4.44v-12.36c-17.28.960002-26.88 10.2-26.88 24.24 0 11.4 5.64 16.08 13.2 16.08 7.92 0 12.72-4.68 12.72-12z"></path>
-                    </svg>
-                    Now that we&apos;ve switched to a remote environment, with the use of Trello, we can now limit the
-                    number of meetings we have regarding specific projects and turn to Trello for updates instead.
-                  </blockquote>
-                  <footer className="carousel-footer d-md-flex flex-row-reverse m-0 mt-3 text-center text-md-left">
-                    <span>
-                      <h5 className="m-0">Haley Ennes</h5>
-                      HR Manager, Sprout Social
-                    </span>
-                  </footer>
-                </div>
-              </div>
-            </div>
-          </div>
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev"
-          >
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next"
-          >
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Next</span>
-          </button>
-        </div>
-      </section>
-
       <section id="sign-up">
         <div className="container sign-up-container">
-          <div className="row sign-up-row">
-            <div className="col-xl-12 col-lg-11 col-md-11 col-12 sign-up-col d-flex justify-content-center align-items-center">
+          <div className="row sign-up-row d-flex flex-column justify-content-center align-items-center">
+            <div className="col-xl-12 col-lg-12 col-md-12 col-12 sign-up-col d-flex justify-content-center align-items-center">
               <form className="sign-up-form d-flex flex-column justify-content-center align-items-center">
                 <h4 className="sign-up-title">
                   Sign up and get started with Trello today. A world of productive teamwork awaits!

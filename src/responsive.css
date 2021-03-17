@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1199px) {
   .nav-rightside {
-    right: -200px;
+    right: -260px;
   }
 
   .right-hero {
@@ -13,6 +13,8 @@
 
   .product-image {
     width: 75% !important;
+    position: relative;
+    right: 40px;
   }
 
   #features {
@@ -20,11 +22,56 @@
   }
 
   #features .container {
-    padding-right: 200px;
+    padding-right: 0px !important;
   }
 
   .sign-up-col {
-    margin-left: 25px;
+    margin-left: -40px;
+  }
+
+  .sign-up-row {
+    padding: 0 50px;
+  }
+
+  .global-footer-ul {
+    margin: 0 100px;
+  }
+
+  .check-out-text {
+    font-size: 1.3rem;
+  }
+
+  .apps-row {
+    position: relative;
+    right: 60px;
+  }
+
+  .check-out-title {
+    font-size: 1.5rem;
+  }
+
+  .check-out-row {
+    padding-right: 100px !important;
+  }
+
+  .global-footer-row {
+    position: relative;
+    right: 0px;
+  }
+
+  #hero .row {
+    position: relative;
+    left: 80px;
+  }
+
+  .trello-logo-div {
+    position: relative;
+    left: 100px;
+  }
+
+  .homepage-hero-form {
+    position: relative !important;
+    left: 0px !important;
   }
 }
 
@@ -76,6 +123,33 @@
   }
   .check-out-row {
     padding: 40px 0;
+    padding-right: 50px !important;
+    padding-left: 5px !important;
+  }
+
+  .sign-up-row {
+    margin-left: 0.5rem !important;
+    padding: 0 50px 0 36px;
+  }
+
+  .apps-row {
+    right: 45px;
+  }
+
+  .global-footer-ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    padding-left: 60px;
+  }
+
+  .global-footer-img-div {
+    padding-left: 60px;
+  }
+
+  .global-footer-copyright {
+    padding-left: 60px;
   }
 }
 
@@ -86,7 +160,7 @@
 @media screen and (max-width: 575px) {
   .nav-rightside {
     right: 0 !important;
-    left: 60px !important;
+    left: 50px !important;
     top: 1px !important;
     margin-right: 0 !important;
   }
@@ -200,12 +274,61 @@
     padding-right: 0 !important;
     padding-left: 0 !important;
   }
+
+  .product-image {
+    right: 0 !important;
+  }
+
+  .sign-up-row {
+    position: relative;
+    right: -66px;
+  }
+
+  .apps-row {
+    margin-left: 90px !important;
+  }
+
+  .global-footer-ul {
+    padding-left: 170px;
+  }
+
+  .global-footer-select {
+    position: relative;
+    left: 20px;
+  }
+
+  .arrow-icon {
+    margin-left: 20px;
+  }
+
+  .global-footer-img-div {
+    padding-left: 160px;
+  }
+
+  .global-footer-copyright {
+    padding-left: 160px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .sign-up-row {
+    position: relative;
+    right: -46px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .sign-up-row {
+    position: relative;
+    left: 40px;
+  }
 }
 
 @media screen and (max-width: 360px) {
   .nav-rightside {
-    left: 170px !important;
-    top: -10px !important;
+    left: 20px !important;
+    top: 20px !important;
   }
 
   .trello-logo-div {
@@ -219,6 +342,11 @@
 
   .sign-up-col {
     padding: 10px 0px !important;
+  }
+
+  .sign-up-row {
+    position: relative;
+    left: 40px;
   }
 }
 
