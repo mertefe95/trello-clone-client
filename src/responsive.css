@@ -15,7 +15,7 @@
   .product-image {
     width: 75% !important;
     position: relative;
-    right: 60px;
+    right: 0px;
   }
 
   #features {
@@ -266,7 +266,7 @@
     margin-left: -15px !important;
     margin-right: 30px !important;
     position: relative;
-    right: -5px;
+    right: -15px;
   }
 
   .sign-up-title {
@@ -296,7 +296,7 @@
 
   .global-footer-select {
     position: relative;
-    right: 65px;
+    right: 53px;
   }
 
   .global-footer-ul {
@@ -304,7 +304,7 @@
   }
 
   .arrow-icon {
-    margin-left: 20px;
+    left: 88px;
   }
 
   .global-footer-img-div {
@@ -351,6 +351,7 @@
 
   .sign-up-col {
     padding: 10px 0px !important;
+    margin-left: -50px !important;
   }
 
   .sign-up-row {

@@ -54,12 +54,12 @@ const Homepage: FunctionComponent = function () {
             </div>
           </div>
           <div className="row d-flex flex-column align-items-center justify-content-center">
-            <div className="col col-lg ml-md-5 product-img-div text-center d-flex justify-content-center">
+            <div className="col col-lg product-img-div text-center d-flex justify-content-center">
               <img
                 src="https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/product/89d378b845766a8f0c48e955336266f8/board.png"
                 width="1902"
                 height="1334"
-                className="product-image img-fluid d-block ml-md-5 ml-lg-0 ml-xl-0"
+                className="product-image img-fluid d-block ml-md-5 ml-lg-5 ml-xl-0"
                 alt="Board view"
               />
             </div>
