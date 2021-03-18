@@ -58,12 +58,12 @@ section#hero {
 
 .homepage-signup-form {
   background-color: #0065ff;
-  padding: 7px 30px;
+
   font-weight: bold;
   color: white;
   border-radius: 6px;
   letter-spacing: 0.8px;
-  width: 40%;
+
   text-align: center;
   max-width: 175px !important;
   font-size: 1.1rem;
@@ -196,7 +196,6 @@ section#hero {
 }
 
 .start-doing-btn {
-  padding: 0 40px;
   width: 160px;
   letter-spacing: 0.9px;
   font-size: 1.2rem !important;
