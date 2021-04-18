@@ -220,6 +220,16 @@
   .shared-comp-row p {
     max-width: 400px;
   }
+
+  .logged-out-footer {
+    min-height: 300px;
+    padding-top: 60px;
+  }
+
+  .logged-out-footer-copyright {
+    text-align: center;
+    padding-top: 25px;
+  }
 }
 
 /* Responsible */
