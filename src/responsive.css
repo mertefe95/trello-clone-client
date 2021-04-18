@@ -102,6 +102,7 @@
     min-height: 500px;
     position: relative;
     bottom: 50px;
+    padding-bottom: 50px;
   }
 }
 
@@ -223,12 +224,30 @@
 
   .logged-out-footer {
     min-height: 300px;
-    padding-top: 60px;
+    padding-top: 100px;
+    padding-bottom: 0;
   }
 
   .logged-out-footer-copyright {
     text-align: center;
     padding-top: 25px;
+  }
+
+  .logged-out-footer-link-div {
+    padding-right: 25px;
+    padding-top: 10px;
+  }
+
+  .logged-out-footer-select {
+    margin-left: 15px;
+  }
+
+  .logged-out-footer-select-icon {
+    left: 175px;
+  }
+
+  .logged-out-footer-logo-div {
+    margin-left: 10px;
   }
 }
 
@@ -413,7 +432,111 @@
   #sign-up {
     max-height: 185vh !important;
   }
+
+  .logged-out-footer-link-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 30px;
+  }
+
+  .logged-out-footer-link-div a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .logged-out-footer {
+    padding-bottom: 30px;
+  }
+
+  .logged-out-thanks-div {
+    padding: 30px 0;
+  }
+
+  .logged-out-thanks-div h2,
+  .logged-out-blue-row h2,
+  .logged-out-gold-row h2,
+  .shared-comp-row h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .logged-out-gold-row p {
+    margin: 25px 0;
+  }
+
+  .logged-out-thanks-div p,
+  .logged-out-shared-comp-div p,
+  .logged-out-gold-row p,
+  .shared-comp-row button {
+    font-size: 1.2rem;
+  }
+
+  .app-row button,
+  .logged-out-follow-row p {
+    width: 200px;
+    font-size: 1.2rem;
+  }
+
+  .app-row-div {
+    flex-direction: column;
+    position: relative;
+  }
+
+  .logged-out-blue-row a,
+  .app-row p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .app-row {
+    flex-direction: column !important;
+    padding: 20px 0;
+  }
+
+  .app-row-text-div {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logged-out-app-img-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .shared-comp-row p {
+    width: 200px;
+  }
+
+  .shared-comp-row button {
+    width: 200px;
+  }
+
+  .logged-out-footer-logo-div {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .logged-out-nav-right-div a {
+    margin: 0 10px;
+  }
+
+  .logged-out-footer-select-icon {
+    left: 145px;
+    top: 32px;
+  }
+
+  .logged-out-footer-select {
+    margin-left: 5px;
+  }
 }
+
 @media screen and (max-width: 380px) {
   #sign-up {
     max-height: 215vh !important;
@@ -426,6 +549,10 @@
   .nav-rightside {
     right: 0 !important;
     left: 30px !important;
+  }
+
+  .logged-out-footer-select-icon {
+    left: 125px;
   }
 }
 
@@ -496,6 +623,10 @@
 
   .sign-up-footer div {
     margin-top: 10px;
+  }
+
+  .logged-out-footer-select-icon {
+    left: 100px;
   }
 }
 

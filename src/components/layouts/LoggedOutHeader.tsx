@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const LoggedOutHeader: FunctionComponent = function () {
   return (
-    <nav className="logged-out-nav d-md-flex align-items-center justify-content-between px-md-5">
+    <nav className="logged-out-nav d-flex d-md-flex align-items-center justify-content-between px-md-5">
       <div className="logged-out-nav-logo">
         <g fill="none" fillRule="evenodd">
           <path

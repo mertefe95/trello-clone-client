@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const LoggedOutFooter: FunctionComponent = function () {
   return (
     <footer className="logged-out-footer d-flex justify-content-center align-items-center col-md-12">
-      <div className="logged-out-div d-flex pb-xl-0 pb-lg-5 mb-xl-0 mb-lg-4 justify-content-center align-items-center flex-column">
+      <div className="logged-out-div d-flex pb-xl-0 pb-lg-5 pl-3 mb-xl-0 mb-lg-4 justify-content-center align-items-center flex-column">
         <div className="logged-out-footer-select-div ml-xl-0 ml-lg-5">
           <i className="fas fa-chevron-down logged-out-footer-select-icon"></i>
           <select
@@ -89,7 +89,7 @@ const LoggedOutFooter: FunctionComponent = function () {
             </option>
           </select>
         </div>
-        <div className="logged-out-footer-link-div  text-md-center">
+        <div className="logged-out-footer-link-div position-relative text-md-center">
           <Link to="#">Templates</Link>
           <Link to="#">Pricing</Link>
           <Link to="#">Apps</Link>

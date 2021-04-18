@@ -4,6 +4,7 @@ import Homepage from './components/Homepage';
 import Signup from './components/Signup';
 import Login from './components/Login';
 import LoggedOut from './components/LoggedOut';
+import Boards from './components/Boards';
 
 const App: FunctionComponent = function () {
   return (
@@ -14,6 +15,7 @@ const App: FunctionComponent = function () {
           <Route exact path="/signup" component={Signup} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/logged-out" component={LoggedOut} />
+          <Route exact path="/boards" component={Boards} />
         </Switch>
       </Router>
     </div>

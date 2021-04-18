@@ -639,6 +639,10 @@ section#customer-stories .carousel .row {
   line-height: 38px;
 }
 
+.app-row p {
+  text-align: left;
+}
+
 .app-row button {
   background: #fff;
   box-shadow: 0 1px rgb(149 157 161 / 30%);
