@@ -4,11 +4,11 @@ import BoardsMainSidebar from './layouts/BoardsMainSidebar';
 
 const Boards: FunctionComponent = function () {
   return (
-    <div className="baords-div">
+    <div className="boards-div">
       <BoardsMainHeader />
       <div>
         <BoardsMainSidebar />
-        <main></main>
+        <main className="boards-main">asd</main>
       </div>
     </div>
   );
