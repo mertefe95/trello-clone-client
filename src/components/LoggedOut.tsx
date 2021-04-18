@@ -81,6 +81,6 @@ const LoggedOut: FunctionComponent = function () {
       <LoggedOutFooter />
     </div>
   );
-}
+};
 
 export default LoggedOut;
