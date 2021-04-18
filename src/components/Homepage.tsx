@@ -418,22 +418,22 @@ const Homepage: FunctionComponent = function () {
         </div>
       </section>
 
-      <section id="sign-up">
-        <div className="container sign-up-container">
-          <div className="row sign-up-row d-flex flex-column justify-content-center align-items-center">
-            <div className="col-xl-12 col-lg-12 col-md-12 col-12 sign-up-col d-flex justify-content-center align-items-center">
-              <form className="sign-up-form d-flex flex-column justify-content-center align-items-center">
-                <h4 className="sign-up-title">
+      <section id="get-started">
+        <div className="container get-started-container">
+          <div className="row get-started-row d-flex flex-column justify-content-center align-items-center">
+            <div className="col-xl-12 col-lg-12 col-md-12 col-12 get-started-col d-flex justify-content-center align-items-center">
+              <form className="get-started-form d-flex flex-column justify-content-center align-items-center">
+                <h4 className="get-started-title">
                   Sign up and get started with Trello today. A world of productive teamwork awaits!
                 </h4>
                 <div className="d-flex mt-4 align-items-center justify-content-center">
                   <input
                     placeholder="Email"
                     name="email"
-                    className="sign-up-email-input form-control mr-2"
+                    className="get-started-email-input form-control mr-2"
                     type="email"
                   />
-                  <button className="sign-up-email-button btn btn-block btn-secondary" type="submit">
+                  <button className="get-started-email-button btn btn-block btn-secondary" type="submit">
                     Sign up
                   </button>
                 </div>

@@ -278,11 +278,11 @@ section#customer-stories .carousel .row {
   width: 100%;
 }
 
-#sign-up {
+#get-started {
   padding: 100px 20px;
 }
 
-#sign-up .sign-up-col {
+#get-started .get-started-col {
   background: #eae6ff !important;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#4c9aff), to(#403294)) !important;
   background-image: linear-gradient(0deg, #4c9aff, #403294 100%) !important;
@@ -297,7 +297,7 @@ section#customer-stories .carousel .row {
   height: 300px;
 }
 
-.sign-up-row {
+.get-started-row {
   margin-left: 10px !important;
 }
 
@@ -327,21 +327,21 @@ section#customer-stories .carousel .row {
   box-shadow: 0 0 0 0.2rem rgb(0 184 217 / 50%) !important;
 }
 
-.sign-up-email-input {
+.get-started-email-input {
   width: 300px !important;
   font-size: 1.2rem !important;
   height: 40px !important;
   font-size: 1.2rem !important;
 }
 
-.sign-up-col {
+.get-started-col {
   padding: 10px 160px !important;
   text-align: center;
   min-width: 250px;
   min-height: 300px;
 }
 
-.sign-up-title {
+.get-started-title {
   font-weight: bold;
   padding-bottom: 20px;
 }
@@ -404,4 +404,341 @@ section#customer-stories .carousel .row {
 
 .global-footer-li {
   margin: 0 10px;
+}
+
+.trello-main-logo {
+  margin: 40px auto;
+  height: 40px;
+  display: block;
+}
+
+.sign-up-form {
+  background-color: #ffffff;
+  border-radius: 3px;
+  padding: 25px 40px;
+  box-shadow: rgb(0 0 0 / 10%) 0 0 10px;
+}
+
+.sign-up-form-title {
+  color: #5e6c84;
+  font-size: 1.1rem;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+#sign-up {
+  background-color: #f9fafc;
+}
+
+.sign-up-form-email {
+  font-size: 14px;
+  background-color: #fafbfc;
+  border: 2px solid #dfe1e6;
+  padding: 7px 6px;
+  border-radius: 3px;
+  height: 44px;
+  -webkit-transition: background-color 0.2s ease-in-out 0s, border-color 0.2s ease-in-out 0s;
+}
+
+.sign-up-form-policy-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #5e6c84;
+}
+
+.sign-up-continue-btn[disabled] {
+  background: #e2e4e6;
+  color: hsl(0, 0%, 55%);
+  cursor: default;
+  border: none;
+}
+
+.sign-up-continue-btn {
+  border-radius: 3px;
+  min-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  font-size: 14px;
+}
+
+.sign-up-login-btn {
+  border-radius: 3px;
+  min-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  font-size: 14px;
+  background: #5aac44 !important;
+  border: 1px solid #5aac44 !important;
+  height: 30px !important;
+  text-align: center !important;
+}
+
+.sign-up-if-span {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #5e6c84;
+}
+
+.sign-up-apple-btn,
+.sign-up-microsoft-btn,
+.sign-up-google-btn {
+  box-shadow: rgb(0 0 0 / 20%) 1px 1px 5px 0;
+  margin: 5px 0;
+  background: #fff;
+  color: rgba(0, 0, 0, 0.54);
+  border-color: transparent;
+  text-align: center;
+  border-radius: 3px;
+  width: 99%;
+  height: 39px;
+  padding-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 0.8rem !important;
+}
+
+.sign-up-have-account {
+  border-top: 1px solid rgb(0 0 0 / 20%);
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+.sign-up-footer-select {
+  background: none;
+  border: 2px solid #edeff0;
+  color: #5e6c84;
+  height: 100%;
+  width: auto;
+  padding: 0.5em;
+  -webkit-appearance: none;
+}
+
+.sign-up-footer-arrow {
+  left: 60px !important;
+  top: 30px !important;
+}
+
+.sign-up-link {
+  text-decoration: none;
+  color: #5e6c84;
+  font-size: 0.8rem;
+}
+
+.sign-up-footer div {
+  margin-top: 20px;
+}
+
+.sign-up-cookie-link {
+  width: 90px !important;
+}
+
+.login-link {
+  text-decoration: none !important;
+  color: #0052cc !important;
+  line-height: 1.333 !important;
+  font-size: 14px;
+}
+
+.login-sso-link {
+  border-bottom: 1px solid hsl(0, 0%, 80%);
+  padding-bottom: 15px;
+}
+
+.sign-up-footer-logo-col::before {
+  content: '';
+  width: 20%;
+  position: relative;
+  left: 60px;
+  border-top: 1px solid hsl(0, 0%, 80%);
+}
+
+.atlassian-logo-small {
+  position: relative;
+  right: 150px;
+  top: 20px;
+}
+
+.login-signup-account::before {
+  content: '\2022';
+  margin: 0 8px 0px 4px;
+  color: #4d4d4d;
+}
+
+.logged-out-nav {
+  background-color: #f8f9f9;
+  min-height: 10vh;
+}
+
+.logged-out-nav-btn {
+  letter-spacing: 0.5px;
+}
+
+.logged-out-success-btn {
+  background: linear-gradient(to bottom, #61bd4f 0%, #5aac44 100%);
+  box-shadow: 0 2px 0 #3f6f21;
+  border-radius: 0.4em;
+}
+
+.logged-out-nav-right-div .logged-out-login-btn {
+  background-color: #e2e4e6;
+  border-radius: 0.4em;
+  box-shadow: 0 2px 0 #cdd2d4;
+  color: hsl(0, 0%, 30%);
+}
+
+.logged-out-main-container {
+  color: hsl(0, 0%, 30%);
+}
+
+.logged-out-thanks-div p,
+.logged-out-shared-comp-div p {
+  font-size: 1.5rem;
+}
+
+.logged-out-thanks-div h2 {
+  font-size: 2.6rem;
+}
+
+.shared-comp-row {
+  background-color: #fdfae5;
+  min-height: 400px;
+}
+
+.shared-comp-row button {
+  color: hsl(0, 0%, 30%);
+  letter-spacing: 0.5px;
+  font-size: 1.3rem;
+  width: 400px;
+  background: #e2e4e6 100%;
+  border: 0;
+  border-radius: 0.3em;
+  box-shadow: 0 1px 0 #a5acb0;
+}
+
+.shared-comp-row p {
+  width: 690px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.app-row {
+  background-color: #bcd9ea;
+  min-height: 350px;
+  font-size: 1.6rem;
+  padding-right: 200px;
+  line-height: 38px;
+}
+
+.app-row button {
+  background: #fff;
+  box-shadow: 0 1px rgb(149 157 161 / 30%);
+  width: 280px;
+  padding: 10px 0;
+  font-size: 1.3rem;
+  color: hsl(0, 0%, 30%);
+  letter-spacing: 1px;
+}
+
+.logged-out-follow-row {
+  min-height: 300px;
+}
+
+.logged-out-follow-row p {
+  font-size: 1.4rem;
+}
+
+.logged-out-follow-row a {
+  color: hsl(202, 40%, 55%);
+  text-decoration: underline;
+}
+
+.logged-out-gold-row {
+  background-color: #f5ea92;
+  min-height: 400px;
+  height: 600px;
+}
+
+.logged-out-gold-row button {
+  background: #fff;
+  box-shadow: 0 1px rgb(149 157 161 / 30%);
+  width: 200px;
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+}
+
+.logged-out-gold-row h2 {
+  font-size: 2.3rem;
+}
+
+.logged-out-gold-row p {
+  font-size: 1.5rem;
+  letter-spacing: 0.8px;
+}
+
+.logged-out-gold-last-p {
+  color: hsl(0, 0%, 55%);
+}
+
+.logged-out-blue-row {
+  background-color: #0079bf;
+  min-height: 350px;
+}
+
+.logged-out-blue-row h2 {
+  color: #fff;
+  font-size: 2.2rem;
+}
+
+.logged-out-blue-row a {
+  color: #fff;
+  text-decoration: underline;
+  opacity: 0.8;
+  font-size: 1.6rem;
+}
+
+.logged-out-footer {
+  min-height: 310px;
+}
+
+.logged-out-footer a {
+  color: hsl(0, 0%, 60%);
+  text-decoration: underline;
+  padding: 0 10px;
+  font-size: 1.2rem;
+}
+
+.logged-out-footer-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 2rem;
+}
+
+.logged-out-footer-select-icon {
+  position: relative;
+  top: 30px;
+  left: 160px;
+  color: #a5acb0;
+}
+
+.logged-out-footer-copyright {
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  color: hsl(0, 0%, 30%);
+}
+
+.logged-out-footer-logo-div img {
+  position: relative;
+  top: -10px;
+  left: -10px;
 }

@@ -26,11 +26,11 @@
     padding-right: 0px !important;
   }
 
-  .sign-up-col {
+  .get-started-col {
     margin-left: -40px;
   }
 
-  .sign-up-row {
+  .get-started-row {
     padding: 0 50px;
   }
 
@@ -74,9 +74,51 @@
     position: relative !important;
     left: 0px !important;
   }
+
+  .sign-up-right-img-div {
+    width: 80% !important;
+    bottom: 210px !important;
+    right: 80px !important;
+  }
+
+  .sign-up-left-img-div {
+    width: 80% !important;
+    left: 30px !important;
+  }
+
+  .sign-up-cookie-link {
+    width: 90px !important;
+  }
+
+  .atlassian-logo-small {
+    right: 110px !important;
+  }
+
+  .logged-out-div {
+    width: 50%;
+  }
+
+  .logged-out-footer {
+    min-height: 500px;
+    position: relative;
+    bottom: 50px;
+  }
 }
 
 @media only screen and (max-width: 993px) {
+  .sign-up-right-img-div {
+    width: 200px !important;
+    left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 10px !important;
+  }
+
+  .sign-up-left-img-div {
+    width: 200px !important;
+    left: 0px !important;
+    padding-top: 40px !important;
+  }
+
   .nav-rightside {
     right: -160px;
   }
@@ -128,7 +170,7 @@
     padding-left: 5px !important;
   }
 
-  .sign-up-row {
+  .get-started-row {
     margin-left: 0.5rem !important;
     padding: 0 50px 0 70px;
   }
@@ -151,6 +193,32 @@
 
   .global-footer-copyright {
     padding-left: 60px;
+  }
+
+  .apple-logo {
+    width: 5% !important;
+  }
+
+  .sign-up-footer-ul {
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 70px !important;
+    padding-bottom: 50px !important;
+    text-align: center;
+  }
+
+  .atlassian-logo-small {
+    right: 170px !important;
+  }
+
+  .sign-up-footer-logo-col::before {
+    width: 50%;
+    left: 0;
+  }
+
+  .shared-comp-row p {
+    max-width: 400px;
   }
 }
 
@@ -258,30 +326,30 @@
     margin-bottom: 30px;
   }
 
-  .sign-up-title {
+  .get-started-title {
     font-size: 1.3rem;
   }
 
-  .sign-up-row {
+  .get-started-row {
     margin-left: -15px !important;
     margin-right: 30px !important;
     position: relative;
     right: -15px;
   }
 
-  .sign-up-title {
+  .get-started-title {
     width: 250px !important;
   }
 
-  .sign-up-email-button {
+  .get-started-email-button {
     width: 265px !important;
   }
 
-  .sign-up-email-input {
+  .get-started-email-input {
     display: none !important;
   }
 
-  .sign-up-container {
+  .get-started-container {
     padding-right: 0 !important;
     padding-left: 0 !important;
   }
@@ -319,10 +387,29 @@
   .global-footer {
     text-align: center;
   }
-}
 
+  .sign-up-right-img-div {
+    bottom: 80px !important;
+  }
+  .sign-up-left-img-div {
+    bottom: 100px !important;
+  }
+
+  .sign-up-left-img-div,
+  .sign-up-right-img-div {
+    width: 90px !important;
+  }
+
+  #sign-up {
+    max-height: 185vh !important;
+  }
+}
 @media screen and (max-width: 380px) {
-  .sign-up-row {
+  #sign-up {
+    max-height: 215vh !important;
+  }
+
+  .get-started-row {
     right: 6px;
   }
 
@@ -333,8 +420,11 @@
 }
 
 @media screen and (max-width: 370px) {
-  .sign-up-row {
+  .get-started-row {
     right: 13px;
+  }
+  .sign-up-footer-col {
+    padding: 0 !important;
   }
 }
 
@@ -355,21 +445,47 @@
     width: 50%;
   }
 
-  .sign-up-col {
+  .get-started-col {
     padding: 10px 0px !important;
     margin-left: -50px !important;
   }
 
-  .sign-up-row {
+  .get-started-row {
     position: relative;
     left: 15px;
   }
 
-  .sign-up-title {
+  .get-started-title {
     padding: 20px;
   }
-  .sign-up-email-button {
+  .get-started-email-button {
     width: 200px !important;
+  }
+
+  .sign-up-left-img-div,
+  .sign-up-right-img-div {
+    width: 75px !important;
+  }
+
+  .sign-up-right-img-div {
+    left: 10px !important;
+  }
+
+  .sign-up-footer {
+    margin-top: 50px !important;
+  }
+
+  .sign-up-footer-col {
+    bottom: 0 !important;
+  }
+
+  .sign-up-footer-logo-col {
+    padding-bottom: 0 !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .sign-up-footer div {
+    margin-top: 10px;
   }
 }
 
